@@ -6,12 +6,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.sql.SQLOutput;
+
 public class T2_getText_getAttribute {
     public static void main(String[] args) {
         /*
         go to url: https://loopcamp.vercel.app/registration_form.html
         verify header text expected:  Registration form
-        verify placeholder attribute value expected - username
+        verify placeholder attribute value expected - first name
          */
         WebDriver driver = WebDriverUtil.getDriver("chrome");
         driver.manage().window().maximize();
@@ -28,10 +30,21 @@ public class T2_getText_getAttribute {
             System.err.println("Expected header for form: \"" + LoopCampConstants.EXPECTED_HEADER_FOR_FORM + "\", DOES NOT MATCH actual header: \"" + actualHeaderForForm + "\" => TEST FAILED");
         }
 
+        WebElement userNamePlaceholder = driver.findElement(By.name("firstname"));
+        String actualPlaceholderForUsername = userNamePlaceholder.getAttribute("placeholder");
 
+//        System.out.println("actualPlaceholderForUsername = " + actualPlaceholderForUsername); // testing to check attribute name
 
+        WebElement firstNamePlaceholder = driver.findElement(By.name("firstname"));
+        String actualPlaceholderForFirstName= firstNamePlaceholder.getAttribute("placeholder");
 
-
+        if (actualPlaceholderForUsername.equals(LoopCampConstants.EXPECTED_PLACEHOLDER_FIRSTNAME)) {
+            System.out.println("Expected placeholder matches with actual");
+            System.out.println("TEST PASSED");
+        } else {
+            System.err.println("Expect placeholder DOES NOT MATCH with actual");
+            System.err.println("TEST FAILED");
+        }
 
 
     }
