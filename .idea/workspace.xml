@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e912b69f-2f9a-41b4-bf5d-fbb9df002276" name="Changes" comment="Changes for day_3, locators and (getText and other)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day3/T3_getAttribute_css.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T000_xpath_getText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T00_css_isDisplayed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T0_forget_password.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T1_findElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T000_staleElementException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T00_checkbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T0_radioButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T1_testNG_intro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T2_testNG_with_selenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T3_simple_dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T4_dropdown_options.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day3/T2_getText_getAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day3/T2_getText_getAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/LoopCampConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/LoopCampConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/WebDriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/WebDriverUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,15 +68,28 @@
     "Application.GoogleSearch.executor": "Run",
     "Application.Locators.executor": "Run",
     "Application.NavigateToAmazon.executor": "Run",
+    "Application.T000_staleElementException.executor": "Run",
     "Application.T000_xpath_getText.executor": "Run",
     "Application.T00_css_isDisplayed.executor": "Run",
     "Application.T0_forget_password.executor": "Run",
+    "Application.T0_radioButton.executor": "Run",
+    "Application.T1_findElements.executor": "Run",
     "Application.T1_locators_getText.executor": "Run",
     "Application.T2_getText_getAttribute.executor": "Run",
     "Application.T3_getAttribute_css.executor": "Run",
+    "Application.radioButton.executor": "Run",
+    "Maven.AutomationProjectB3 [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "day__4",
+    "TestNG.T1_testNG_intro (1).executor": "Run",
+    "TestNG.T1_testNG_intro.atest.executor": "Run",
+    "TestNG.T1_testNG_intro.executor": "Run",
+    "TestNG.T1_testNG_intro.test1.executor": "Run",
+    "TestNG.T1_testNG_intro.test2.executor": "Run",
+    "TestNG.T2_testNG_with_selenium.executor": "Run",
+    "TestNG.T3_simple_dropdown.executor": "Run",
+    "TestNG.T4_dropdown_options.executor": "Run",
+    "git-widget-placeholder": "day__5",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,91 +98,112 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.T000_xpath_getText">
-    <configuration name="T000_xpath_getText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day4.T000_xpath_getText" />
+  <component name="RunManager" selected="TestNG.T4_dropdown_options.colorTest">
+    <configuration name="T1_testNG_intro" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day4.*" />
+          <option name="PATTERN" value="io.loop.test.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T1_testNG_intro" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T00_css_isDisplayed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day4.T00_css_isDisplayed" />
+    <configuration name="T2_testNG_with_selenium" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day4.*" />
+          <option name="PATTERN" value="io.loop.test.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T2_testNG_with_selenium" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T0_forget_password" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day4.T0_forget_password" />
+    <configuration name="T3_simple_dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day4.*" />
+          <option name="PATTERN" value="io.loop.test.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T3_simple_dropdown" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2_getText_getAttribute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day3.T2_getText_getAttribute" />
+    <configuration name="T4_dropdown_options" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day3.*" />
+          <option name="PATTERN" value="io.loop.test.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T4_dropdown_options" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_getAttribute_css" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day3.T3_getAttribute_css" />
+    <configuration name="T4_dropdown_options.colorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day3.*" />
+          <option name="PATTERN" value="io.loop.test.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T4_dropdown_options" />
+      <option name="METHOD_NAME" value="colorTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T000_xpath_getText" />
-        <item itemvalue="Application.T00_css_isDisplayed" />
-        <item itemvalue="Application.T0_forget_password" />
-        <item itemvalue="Application.T3_getAttribute_css" />
-        <item itemvalue="Application.T2_getText_getAttribute" />
+        <item itemvalue="TestNG.T4_dropdown_options.colorTest" />
+        <item itemvalue="TestNG.T4_dropdown_options" />
+        <item itemvalue="TestNG.T3_simple_dropdown" />
+        <item itemvalue="TestNG.T2_testNG_with_selenium" />
+        <item itemvalue="TestNG.T1_testNG_intro" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -179,7 +216,13 @@
       <option name="presentableId" value="Default" />
       <updated>1717349134279</updated>
       <workItem from="1718069729916" duration="4120000" />
-      <workItem from="1718544377886" duration="14609000" />
+      <workItem from="1718544377886" duration="18651000" />
+      <workItem from="1718837918782" duration="10000" />
+      <workItem from="1718934378187" duration="199000" />
+      <workItem from="1719001257802" duration="141000" />
+      <workItem from="1719007976940" duration="598000" />
+      <workItem from="1719008671923" duration="129000" />
+      <workItem from="1719150063293" duration="14844000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
@@ -207,5 +250,15 @@
     <MESSAGE value="My first commit" />
     <MESSAGE value="Changes for day_3, locators and (getText and other)" />
     <option name="LAST_COMMIT_MESSAGE" value="Changes for day_3, locators and (getText and other)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.SocketException" package="java.net" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

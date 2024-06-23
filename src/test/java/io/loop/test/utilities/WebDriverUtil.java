@@ -28,8 +28,8 @@ public class WebDriverUtil {
         } else if (browserType.equalsIgnoreCase("safari")) {
             return new SafariDriver();
         } else {
-            System.out.println("No driver found");
-            System.out.println("Driver is null");
+            System.err.println("No driver found");
+            System.err.println("Driver is null");
             return null;
         }
     }
