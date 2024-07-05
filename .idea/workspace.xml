@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e912b69f-2f9a-41b4-bf5d-fbb9df002276" name="Changes" comment="Changes for day_3, locators and (getText and other)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T1_findElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T000_staleElementException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T00_checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T0_radioButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T1_testNG_intro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T2_testNG_with_selenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T3_simple_dropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T4_dropdown_options.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T5_multi_dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T1_alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T2_iframe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/WebDriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/WebDriverUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +82,10 @@
     "TestNG.T1_testNG_intro.test2.executor": "Run",
     "TestNG.T2_testNG_with_selenium.executor": "Run",
     "TestNG.T3_simple_dropdown.executor": "Run",
+    "TestNG.T4_dropdown_options.colorTest.executor": "Run",
     "TestNG.T4_dropdown_options.executor": "Run",
-    "git-widget-placeholder": "day__5",
+    "git-widget-placeholder": "day__6",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -222,7 +218,9 @@
       <workItem from="1719001257802" duration="141000" />
       <workItem from="1719007976940" duration="598000" />
       <workItem from="1719008671923" duration="129000" />
-      <workItem from="1719150063293" duration="14844000" />
+      <workItem from="1719150063293" duration="17324000" />
+      <workItem from="1719270936175" duration="3694000" />
+      <workItem from="1719881310639" duration="6916000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
