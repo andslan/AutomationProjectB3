@@ -1,0 +1,281 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e912b69f-2f9a-41b4-bf5d-fbb9df002276\" name=\"Changes\" comment=\"My first commit\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/io/loop/test/day1_selenium_intro/SeleniumTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/io/loop/test/day1_selenium_intro/SeleniumTest.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"andslan\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/andslan/AutomationProjectB3.git\",\r\n    \"accountId\": \"80795e5a-216d-40b0-ad04-1930dada3639\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 7\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2hKiNSiwZDYlU4UEp8osovOealU\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n    <option name=\"sortByType\" value=\"true\" />\r\n    <option name=\"sortKey\" value=\"BY_TYPE\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"kotlin-language-version-configured\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e912b69f-2f9a-41b4-bf5d-fbb9df002276\" name=\"Changes\" comment=\"\" />\r\n      <created>1717349134279</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1717349134279</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"My first commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1717349744209</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1717349744209</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"My first commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"My first commit\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 12bf3d14ae3e866c4f0cf9d89d8d85d27c4c48ab)
++++ b/.idea/workspace.xml	(date 1720359344124)
+@@ -4,8 +4,12 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e912b69f-2f9a-41b4-bf5d-fbb9df002276" name="Changes" comment="My first commit">
+-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day1_selenium_intro/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day1_selenium_intro/SeleniumTest.java" afterDir="false" />
++    <list default="true" id="e912b69f-2f9a-41b4-bf5d-fbb9df002276" name="Changes" comment="Changes for day_3, locators and (getText and other)">
++      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T5_multi_dropdown.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T1_alerts.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T2_iframe.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -20,26 +24,33 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="day_3" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+     <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+-  "lastFilter": {
+-    "state": "OPEN",
+-    "assignee": "andslan"
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;andslan&quot;
+   }
+-}]]></component>
+-  <component name="GithubPullRequestsUISettings"><![CDATA[{
+-  "selectedUrlAndAccountId": {
+-    "url": "https://github.com/andslan/AutomationProjectB3.git",
+-    "accountId": "80795e5a-216d-40b0-ad04-1930dada3639"
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/andslan/AutomationProjectB3.git&quot;,
++    &quot;accountId&quot;: &quot;80795e5a-216d-40b0-ad04-1930dada3639&quot;
+   }
+-}]]></component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 7
+-}]]></component>
++}</component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 7
++}</component>
+   <component name="ProjectId" id="2hKiNSiwZDYlU4UEp8osovOealU" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="showLibraryContents" value="true" />
+     <option name="sortByType" value="true" />
+@@ -47,11 +58,151 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "Application.AllLocatorsPractice.executor": "Run",
++    "Application.GoogleSearch.executor": "Run",
++    "Application.Locators.executor": "Run",
++    "Application.NavigateToAmazon.executor": "Run",
++    "Application.T000_staleElementException.executor": "Run",
++    "Application.T000_xpath_getText.executor": "Run",
++    "Application.T00_css_isDisplayed.executor": "Run",
++    "Application.T0_forget_password.executor": "Run",
++    "Application.T0_radioButton.executor": "Run",
++    "Application.T1_findElements.executor": "Run",
++    "Application.T1_locators_getText.executor": "Run",
++    "Application.T2_getText_getAttribute.executor": "Run",
++    "Application.T3_getAttribute_css.executor": "Run",
++    "Application.radioButton.executor": "Run",
++    "Maven.AutomationProjectB3 [clean].executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "master",
+-    "kotlin-language-version-configured": "true"
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "TestNG.T1_testNG_intro (1).executor": "Run",
++    "TestNG.T1_testNG_intro.atest.executor": "Run",
++    "TestNG.T1_testNG_intro.executor": "Run",
++    "TestNG.T1_testNG_intro.test1.executor": "Run",
++    "TestNG.T1_testNG_intro.test2.executor": "Run",
++    "TestNG.T2_testNG_with_selenium.executor": "Run",
++    "TestNG.T3_simple_dropdown.executor": "Run",
++    "TestNG.T4_dropdown_options.colorTest.executor": "Run",
++    "TestNG.T4_dropdown_options.executor": "Run",
++    "git-widget-placeholder": "day__6",
++    "ignore.virus.scanning.warn.message": "true",
++    "kotlin-language-version-configured": "true",
++    "node.js.detected.package.eslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "project.structure.last.edited": "Project",
++    "project.structure.proportion": "0.15",
++    "project.structure.side.proportion": "0.0",
++    "settings.editor.selected.configurable": "preferences.pluginManager",
++    "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
++  <component name="RunManager" selected="TestNG.T4_dropdown_options.colorTest">
++    <configuration name="T1_testNG_intro" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="AutomationProjectB3" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="io.loop.test.day5.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
++      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T1_testNG_intro" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="T2_testNG_with_selenium" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="AutomationProjectB3" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="io.loop.test.day5.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
++      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T2_testNG_with_selenium" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="T3_simple_dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="AutomationProjectB3" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="io.loop.test.day5.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
++      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T3_simple_dropdown" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="T4_dropdown_options" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="AutomationProjectB3" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="io.loop.test.day5.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
++      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T4_dropdown_options" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="T4_dropdown_options.colorTest" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="AutomationProjectB3" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="io.loop.test.day5.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
++      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T4_dropdown_options" />
++      <option name="METHOD_NAME" value="colorTest" />
++      <option name="TEST_OBJECT" value="METHOD" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="TestNG.T4_dropdown_options.colorTest" />
++        <item itemvalue="TestNG.T4_dropdown_options" />
++        <item itemvalue="TestNG.T3_simple_dropdown" />
++        <item itemvalue="TestNG.T2_testNG_with_selenium" />
++        <item itemvalue="TestNG.T1_testNG_intro" />
++      </list>
++    </recent_temporary>
++  </component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
++        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
++      </set>
++    </attachedChunks>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -60,6 +211,16 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1717349134279</updated>
++      <workItem from="1718069729916" duration="4120000" />
++      <workItem from="1718544377886" duration="18651000" />
++      <workItem from="1718837918782" duration="10000" />
++      <workItem from="1718934378187" duration="199000" />
++      <workItem from="1719001257802" duration="141000" />
++      <workItem from="1719007976940" duration="598000" />
++      <workItem from="1719008671923" duration="129000" />
++      <workItem from="1719150063293" duration="17324000" />
++      <workItem from="1719270936175" duration="3694000" />
++      <workItem from="1719881310639" duration="6916000" />
+     </task>
+     <task id="LOCAL-00001" summary="My first commit">
+       <option name="closed" value="true" />
+@@ -69,11 +230,33 @@
+       <option name="project" value="LOCAL" />
+       <updated>1717349744209</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Changes for day_3, locators and (getText and other)">
++      <option name="closed" value="true" />
++      <created>1717959563437</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1717959563438</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="My first commit" />
+-    <option name="LAST_COMMIT_MESSAGE" value="My first commit" />
++    <MESSAGE value="Changes for day_3, locators and (getText and other)" />
++    <option name="LAST_COMMIT_MESSAGE" value="Changes for day_3, locators and (getText and other)" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <breakpoint enabled="true" type="java-exception">
++          <properties class="java.net.SocketException" package="java.net" />
++          <option name="timeStamp" value="2" />
++        </breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
+   </component>
+ </project>
+\ No newline at end of file

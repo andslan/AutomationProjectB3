@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e912b69f-2f9a-41b4-bf5d-fbb9df002276" name="Changes" comment="Changes for day_3, locators and (getText and other)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T5_multi_dropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T1_alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T2_iframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T00_login_docuport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T0_iframe_practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T1_window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T2_window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T3_webTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportWebTableUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportConstants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="day_3" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,16 +80,33 @@
     "Maven.AutomationProjectB3 [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/andre/AppData/Local/JetBrains/IntelliJIdea2024.1/temp-testng-customsuite.xml.executor": "Run",
+    "TestNG.T00_login_docuport.executor": "Run",
+    "TestNG.T00_login_docuport.test_login_logout_docuport.executor": "Run",
+    "TestNG.T0_iframe_practice.executor": "Run",
+    "TestNG.T0_iframe_practice.left (1).executor": "Run",
+    "TestNG.T0_iframe_practice.left.executor": "Run",
+    "TestNG.T1_alerts.executor": "Run",
     "TestNG.T1_testNG_intro (1).executor": "Run",
     "TestNG.T1_testNG_intro.atest.executor": "Run",
     "TestNG.T1_testNG_intro.executor": "Run",
     "TestNG.T1_testNG_intro.test1.executor": "Run",
     "TestNG.T1_testNG_intro.test2.executor": "Run",
+    "TestNG.T1_window.executor": "Run",
+    "TestNG.T1_window.selenium4_window.executor": "Run",
+    "TestNG.T1_window.test_window_handle.executor": "Run",
     "TestNG.T2_testNG_with_selenium.executor": "Run",
+    "TestNG.T2_window.windowHandleTest.executor": "Run",
     "TestNG.T3_simple_dropdown.executor": "Run",
+    "TestNG.T3_webTables.test_webTables (1).executor": "Run",
+    "TestNG.T3_webTables.test_webTables (2).executor": "Run",
+    "TestNG.T3_webTables.test_webTables (3).executor": "Run",
+    "TestNG.T3_webTables.test_webTables (4).executor": "Run",
+    "TestNG.T3_webTables.test_webTables (5).executor": "Run",
+    "TestNG.T3_webTables.test_webTables.executor": "Run",
     "TestNG.T4_dropdown_options.colorTest.executor": "Run",
     "TestNG.T4_dropdown_options.executor": "Run",
-    "git-widget-placeholder": "day__6",
+    "git-widget-placeholder": "day__7",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -98,86 +120,90 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.T4_dropdown_options.colorTest">
-    <configuration name="T1_testNG_intro" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.T3_webTables.test_webTables (1)">
+    <configuration name="T3_webTables.test_webTables (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day5.*" />
+          <option name="PATTERN" value="io.loop.test.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T1_testNG_intro" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T3_webTables" />
+      <option name="METHOD_NAME" value="test_webTables" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2_testNG_with_selenium" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T3_webTables.test_webTables (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day5.*" />
+          <option name="PATTERN" value="io.loop.test.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T2_testNG_with_selenium" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T3_webTables" />
+      <option name="METHOD_NAME" value="test_webTables" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_simple_dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T3_webTables.test_webTables (4)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day5.*" />
+          <option name="PATTERN" value="io.loop.test.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T3_simple_dropdown" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T3_webTables" />
+      <option name="METHOD_NAME" value="test_webTables" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4_dropdown_options" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T3_webTables.test_webTables (5)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day5.*" />
+          <option name="PATTERN" value="io.loop.test.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T4_dropdown_options" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T3_webTables" />
+      <option name="METHOD_NAME" value="test_webTables" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4_dropdown_options.colorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T3_webTables.test_webTables" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day5.*" />
+          <option name="PATTERN" value="io.loop.test.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T4_dropdown_options" />
-      <option name="METHOD_NAME" value="colorTest" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T3_webTables" />
+      <option name="METHOD_NAME" value="test_webTables" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -187,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.T4_dropdown_options.colorTest" />
-        <item itemvalue="TestNG.T4_dropdown_options" />
-        <item itemvalue="TestNG.T3_simple_dropdown" />
-        <item itemvalue="TestNG.T2_testNG_with_selenium" />
-        <item itemvalue="TestNG.T1_testNG_intro" />
+        <item itemvalue="TestNG.T3_webTables.test_webTables (1)" />
+        <item itemvalue="TestNG.T3_webTables.test_webTables" />
+        <item itemvalue="TestNG.T3_webTables.test_webTables (5)" />
+        <item itemvalue="TestNG.T3_webTables.test_webTables (4)" />
+        <item itemvalue="TestNG.T3_webTables.test_webTables (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -248,15 +274,5 @@
     <MESSAGE value="My first commit" />
     <MESSAGE value="Changes for day_3, locators and (getText and other)" />
     <option name="LAST_COMMIT_MESSAGE" value="Changes for day_3, locators and (getText and other)" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.net.SocketException" package="java.net" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
