@@ -24,7 +24,5 @@ public class T0_iframe_practice extends TestBase {
 
         Assert.assertEquals(actualLeft.trim(), "LEFT");
 
-
-
     }
 }
