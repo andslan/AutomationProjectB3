@@ -4,22 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e912b69f-2f9a-41b4-bf5d-fbb9df002276" name="Changes" comment="Changes for day_3, locators and (getText and other)">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T000_singleton_practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T00_singleton_pattern_example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T00_test_config_reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T0_pizza_order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T1_google_search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T2_java_faker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T3_upload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/PizzaOrderWebTablesUtil.java" afterDir="false" />
+    <list default="true" id="e912b69f-2f9a-41b4-bf5d-fbb9df002276" name="Changes" comment="Changes for day_8">
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/pages/LoopPracticeDragDropPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day9/T1_actions_hoverover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day9/T2_drag_drop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day9/T3_JSExecutor_scroll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day9/T4_drag_and_drop_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_7_2024_9_35_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_7_2024_9_35_AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_7_2024_9_36_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_7_2024_9_36_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T0_iframe_practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T0_iframe_practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +91,7 @@
     "TestNG.T0_iframe_practice.left.executor": "Run",
     "TestNG.T0_iframe_practice.right.executor": "Run",
     "TestNG.T0_pizza_order.executor": "Run",
+    "TestNG.T1_actions_hoverover.google_action_hover.executor": "Run",
     "TestNG.T1_alerts.executor": "Run",
     "TestNG.T1_google_search.docuport_search.executor": "Run",
     "TestNG.T1_google_search.executor": "Run",
@@ -106,10 +104,12 @@
     "TestNG.T1_window.executor": "Run",
     "TestNG.T1_window.selenium4_window.executor": "Run",
     "TestNG.T1_window.test_window_handle.executor": "Run",
+    "TestNG.T2_drag_drop.drag_drop_test.executor": "Run",
     "TestNG.T2_java_faker.executor": "Run",
     "TestNG.T2_java_faker.java_faker.executor": "Run",
     "TestNG.T2_testNG_with_selenium.executor": "Run",
     "TestNG.T2_window.windowHandleTest.executor": "Run",
+    "TestNG.T3_JSExecutor_scroll.etsy_scroll_test.executor": "Run",
     "TestNG.T3_simple_dropdown.executor": "Run",
     "TestNG.T3_upload.executor": "Run",
     "TestNG.T3_upload.upload_file (1).executor": "Run",
@@ -121,9 +121,11 @@
     "TestNG.T3_webTables.test_webTables (4).executor": "Run",
     "TestNG.T3_webTables.test_webTables (5).executor": "Run",
     "TestNG.T3_webTables.test_webTables.executor": "Run",
+    "TestNG.T4_drag_and_drop_POM.drag_small_here_test.executor": "Run",
+    "TestNG.T4_drag_and_drop_POM.executor": "Run",
     "TestNG.T4_dropdown_options.colorTest.executor": "Run",
     "TestNG.T4_dropdown_options.executor": "Run",
-    "git-widget-placeholder": "day__8",
+    "git-widget-placeholder": "day__9",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -137,35 +139,71 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.T3_upload.upload_file (2)">
-    <configuration name="C:/Users/andre/AppData/Local/JetBrains/IntelliJIdea2024.1/temp-testng-customsuite.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.T4_drag_and_drop_POM.drag_small_here_test">
+    <configuration name="T1_actions_hoverover.google_action_hover" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day8.*" />
+          <option name="PATTERN" value="io.loop.test.day9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2024.1/temp-testng-customsuite.xml" />
-      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T2_java_faker" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day9" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T1_actions_hoverover" />
+      <option name="METHOD_NAME" value="google_action_hover" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_upload" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T2_drag_drop.drag_drop_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day8.*" />
+          <option name="PATTERN" value="io.loop.test.day9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T3_upload" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day9" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T2_drag_drop" />
+      <option name="METHOD_NAME" value="drag_drop_test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T3_JSExecutor_scroll.etsy_scroll_test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day9" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T3_JSExecutor_scroll" />
+      <option name="METHOD_NAME" value="etsy_scroll_test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T4_drag_and_drop_POM" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day9" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T4_drag_and_drop_POM" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -173,53 +211,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_upload.upload_file (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T4_drag_and_drop_POM.drag_small_here_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day8.*" />
+          <option name="PATTERN" value="io.loop.test.day9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T3_upload" />
-      <option name="METHOD_NAME" value="upload_file" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T3_upload.upload_file (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T3_upload" />
-      <option name="METHOD_NAME" value="upload_file" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T3_upload.upload_file" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T3_upload" />
-      <option name="METHOD_NAME" value="upload_file" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day9" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T4_drag_and_drop_POM" />
+      <option name="METHOD_NAME" value="drag_small_here_test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -229,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.T3_upload.upload_file (2)" />
-        <item itemvalue="TestNG.T3_upload.upload_file" />
-        <item itemvalue="TestNG.T3_upload.upload_file (1)" />
-        <item itemvalue="TestNG.T3_upload" />
-        <item itemvalue="TestNG.C:/Users/andre/AppData/Local/JetBrains/IntelliJIdea2024.1/temp-testng-customsuite.xml (1)" />
+        <item itemvalue="TestNG.T4_drag_and_drop_POM.drag_small_here_test" />
+        <item itemvalue="TestNG.T4_drag_and_drop_POM" />
+        <item itemvalue="TestNG.T3_JSExecutor_scroll.etsy_scroll_test" />
+        <item itemvalue="TestNG.T2_drag_drop.drag_drop_test" />
+        <item itemvalue="TestNG.T1_actions_hoverover.google_action_hover" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +266,10 @@
       <workItem from="1719270936175" duration="3694000" />
       <workItem from="1719881310639" duration="6916000" />
       <workItem from="1720632014774" duration="5263000" />
-      <workItem from="1720724186923" duration="12467000" />
+      <workItem from="1720724186923" duration="14087000" />
+      <workItem from="1721084595139" duration="661000" />
+      <workItem from="1721257300457" duration="146000" />
+      <workItem from="1721343790720" duration="8920000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
@@ -290,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720378568883</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changes for day_8">
+      <option name="closed" value="true" />
+      <created>1720749467843</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720749467843</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +312,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My first commit" />
     <MESSAGE value="Changes for day_3, locators and (getText and other)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes for day_3, locators and (getText and other)" />
+    <MESSAGE value="Changes for day_8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes for day_8" />
   </component>
 </project>
