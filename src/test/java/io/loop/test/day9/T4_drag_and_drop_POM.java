@@ -3,6 +3,7 @@ package io.loop.test.day9;
 import io.loop.pages.LoopPracticeDragDropPage;
 import io.loop.test.utilities.Driver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -41,18 +42,54 @@ public class T4_drag_and_drop_POM {
 
 
     @BeforeMethod
-    public void setUpMethod(){
+    public void setUpMethod() {
         Driver.getDriver().get("https://loopcamp.vercel.app/drag-and-drop-circles.html");
         loopPracticeDragDropPage = new LoopPracticeDragDropPage();
         actions = new Actions(Driver.getDriver());
     }
 
-    @Test
-    public void drag_small_here_test(){
+    @AfterMethod
+    public void tearDownMethod() {
+        Driver.closeDriver();
+    }
+
+    @Test (priority = 1)
+    public void drag_small_here_test() {
         String expected = "Drag the small circle here.";
         String actual = loopPracticeDragDropPage.bigCircle.getText();
         assertEquals(actual, expected, "Actual does not match the expected");
     }
+
+    @Test  (priority = 2)
+    public void drop_here_test() {
+        actions.moveToElement(loopPracticeDragDropPage.smallCircle)
+                .clickAndHold()
+                .moveByOffset(100, 100)
+                .pause(3000)
+                .perform();
+        assertEquals(loopPracticeDragDropPage.bigCircle.getText(), "Drop here.");
+    }
+
+    @Test  (priority = 3)
+    public void drop_now_test() {
+        actions.moveToElement(loopPracticeDragDropPage.smallCircle)
+                .clickAndHold()
+                .moveByOffset(0, -200)
+                .pause(3000)
+                .perform();
+        assertEquals(loopPracticeDragDropPage.bigCircle.getText(), "Now drop...");
+    }
+
+    @Test  (priority = 4)
+    public void try_again_test() {
+        actions.moveToElement(loopPracticeDragDropPage.smallCircle)
+                .clickAndHold()
+                .moveByOffset(100, 100)
+                .release()
+                .perform();
+        assertEquals(loopPracticeDragDropPage.bigCircle.getText(), "Try again!");
+    }
+
 
 
 

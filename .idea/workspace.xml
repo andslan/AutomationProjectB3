@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e912b69f-2f9a-41b4-bf5d-fbb9df002276" name="Changes" comment="Changes for day_8">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/pages/LoopPracticeDragDropPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day9/T1_actions_hoverover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day9/T2_drag_drop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day9/T3_JSExecutor_scroll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day9/T4_drag_and_drop_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_7_2024_9_35_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_7_2024_9_35_AM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_7_2024_9_36_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_7_2024_9_36_AM__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/pages/LoopPracticeDynamicLoading1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/pages/LoopPracticeDynamicLoading7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day10/T1_dynamic_loading1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day10/T2_explicit_wait.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day9/T4_drag_and_drop_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day9/T4_drag_and_drop_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/BrowserUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +89,8 @@
     "TestNG.T0_pizza_order.executor": "Run",
     "TestNG.T1_actions_hoverover.google_action_hover.executor": "Run",
     "TestNG.T1_alerts.executor": "Run",
+    "TestNG.T1_dynamic_loading1.dynamic_loading_1.executor": "Run",
+    "TestNG.T1_dynamic_loading1.executor": "Run",
     "TestNG.T1_google_search.docuport_search.executor": "Run",
     "TestNG.T1_google_search.executor": "Run",
     "TestNG.T1_google_search.google_search.executor": "Run",
@@ -105,6 +103,7 @@
     "TestNG.T1_window.selenium4_window.executor": "Run",
     "TestNG.T1_window.test_window_handle.executor": "Run",
     "TestNG.T2_drag_drop.drag_drop_test.executor": "Run",
+    "TestNG.T2_explicit_wait.explicit_wait_test.executor": "Run",
     "TestNG.T2_java_faker.executor": "Run",
     "TestNG.T2_java_faker.java_faker.executor": "Run",
     "TestNG.T2_testNG_with_selenium.executor": "Run",
@@ -122,10 +121,13 @@
     "TestNG.T3_webTables.test_webTables (5).executor": "Run",
     "TestNG.T3_webTables.test_webTables.executor": "Run",
     "TestNG.T4_drag_and_drop_POM.drag_small_here_test.executor": "Run",
+    "TestNG.T4_drag_and_drop_POM.drop_here_test.executor": "Run",
+    "TestNG.T4_drag_and_drop_POM.drop_now_test.executor": "Run",
     "TestNG.T4_drag_and_drop_POM.executor": "Run",
+    "TestNG.T4_drag_and_drop_POM.try_again_test.executor": "Run",
     "TestNG.T4_dropdown_options.colorTest.executor": "Run",
     "TestNG.T4_dropdown_options.executor": "Run",
-    "git-widget-placeholder": "day__9",
+    "git-widget-placeholder": "day__10",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -135,22 +137,39 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.general",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.T4_drag_and_drop_POM.drag_small_here_test">
-    <configuration name="T1_actions_hoverover.google_action_hover" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.T1_dynamic_loading1">
+    <configuration name="T1_dynamic_loading1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day9.*" />
+          <option name="PATTERN" value="io.loop.test.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day9" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T1_actions_hoverover" />
-      <option name="METHOD_NAME" value="google_action_hover" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day10" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day10.T1_dynamic_loading1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1_dynamic_loading1.dynamic_loading_1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day10" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day10.T1_dynamic_loading1" />
+      <option name="METHOD_NAME" value="dynamic_loading_1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,35 +177,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2_drag_drop.drag_drop_test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T2_explicit_wait.explicit_wait_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day9.*" />
+          <option name="PATTERN" value="io.loop.test.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day9" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T2_drag_drop" />
-      <option name="METHOD_NAME" value="drag_drop_test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T3_JSExecutor_scroll.etsy_scroll_test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day9" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T3_JSExecutor_scroll" />
-      <option name="METHOD_NAME" value="etsy_scroll_test" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day10" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day10.T2_explicit_wait" />
+      <option name="METHOD_NAME" value="explicit_wait_test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -211,7 +212,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4_drag_and_drop_POM.drag_small_here_test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T4_drag_and_drop_POM.try_again_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
@@ -221,7 +222,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.loop.test.day9" />
       <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T4_drag_and_drop_POM" />
-      <option name="METHOD_NAME" value="drag_small_here_test" />
+      <option name="METHOD_NAME" value="try_again_test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -231,21 +232,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.T4_drag_and_drop_POM.drag_small_here_test" />
+        <item itemvalue="TestNG.T1_dynamic_loading1" />
+        <item itemvalue="TestNG.T1_dynamic_loading1.dynamic_loading_1" />
+        <item itemvalue="TestNG.T2_explicit_wait.explicit_wait_test" />
         <item itemvalue="TestNG.T4_drag_and_drop_POM" />
-        <item itemvalue="TestNG.T3_JSExecutor_scroll.etsy_scroll_test" />
-        <item itemvalue="TestNG.T2_drag_drop.drag_drop_test" />
-        <item itemvalue="TestNG.T1_actions_hoverover.google_action_hover" />
+        <item itemvalue="TestNG.T4_drag_and_drop_POM.try_again_test" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -269,7 +262,13 @@
       <workItem from="1720724186923" duration="14087000" />
       <workItem from="1721084595139" duration="661000" />
       <workItem from="1721257300457" duration="146000" />
-      <workItem from="1721343790720" duration="8920000" />
+      <workItem from="1721343790720" duration="9019000" />
+      <workItem from="1721407720463" duration="31000" />
+      <workItem from="1721407793660" duration="12000" />
+      <workItem from="1721407832187" duration="13000" />
+      <workItem from="1721407876797" duration="6000" />
+      <workItem from="1721407901198" duration="10000" />
+      <workItem from="1721407930842" duration="10294000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
@@ -303,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720749467843</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changes for day_8">
+      <option name="closed" value="true" />
+      <created>1721353859344</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721353859344</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
